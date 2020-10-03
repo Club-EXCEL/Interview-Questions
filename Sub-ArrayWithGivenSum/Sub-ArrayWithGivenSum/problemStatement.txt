@@ -1,0 +1,18 @@
+Description:
+Given an unsorted array A of size N of non-negative integers, find a continuous sub-array which adds to a given number S.
+
+Input:
+We will be given different testcases based on users choice T,then Size of Array N will be inputted and required Sum S for each test case
+
+Output:
+For each test case, Print -1 if there are no sub-Array with the give requirements
+or Print the starting and ending index of the first occuring subarray from index 1 that matches our requirement
+
+Example:
+Input:
+1
+6 18
+10 5 3 21 1 2
+
+Output:
+0 2
