@@ -1,0 +1,32 @@
+Aryan loves morning walk with his brother. He likes to cover K feet in one step.
+However this leads to a problem as he cannot cover certain distances, i.e. if he
+is covering 3 feet in a single step, he cannot travel the distance of exactly 8 feet.
+There are N number of distances and feet K which he covers in a single step.
+Your task is to find out which distance he can not tracel;
+
+Input:
+1. First line contains single integer T(no. of test cases)
+2. The first line of each test case contains two space separated integers - N & K
+3. The second line of each test case contains N no. of Distances D[i] (from D[0] to D[n-1])
+
+constraints:
+1<=T,N<=1000
+1<=K,D[i]<=10^9
+
+Output:
+For each testcase print a string consisting of N characters, ith character should be 1
+if the distance is traversable and 0 if not.
+
+Sample Input:
+3
+4 5
+12 14 16 17
+5 7
+7 14 21 22 0
+1 4
+6
+
+Sample output:
+0000
+11101
+0
