@@ -1,0 +1,8 @@
+What is the correct code to have the following output in C using nested for loop?
+
+output :
+1
+12
+123
+1234
+12345
